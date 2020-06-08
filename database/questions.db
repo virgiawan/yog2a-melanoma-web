@@ -1,0 +1,13 @@
+{"number":7,"code":"T3","question":"Is the tumor thickness between 2.0 mm and 4.0 mm ?","answers":{"true":"9","false":"8"},"type":"doctor","_id":"4YkzDXAbHym7WVmM"}
+{"number":12,"code":"N1","question":"Is there one tumor involved nodes ?","answers":{"true":"N1","false":"13"},"type":"doctor","_id":"7vdrfrsJ9Jp2huLU"}
+{"number":2,"code":"T1","question":"Is the tumor thickness less than equeal 1.0 mm ?","answers":{"true":"3","false":"5"},"type":"doctor","_id":"CxbQg9w1Lmg3Iivt"}
+{"number":13,"code":"N2","question":"Are there 2 or 3 tumors involved nodes ?","answers":{"true":"N2","false":"N3"},"type":"doctor","_id":"D40iiU2sq69xqW4n"}
+{"number":15,"code":"M0","question":"Is there evidence of distance metastases ?","answers":{"true":"M1","false":"M0"},"type":"doctor","_id":"FFqmBweQGwRrxE8N"}
+{"number":5,"code":"T2","question":"Is the tumor thickness between 1.0 mm and 2.0 mm ?","answers":{"true":"6","false":"7"},"type":"doctor","_id":"HMFO2fbzwULondDI"}
+{"number":3,"code":"T1a","question":"Is the tumor tickness less than 0.8 mm and without ulceration ?","answers":{"true":"T1a","false":"T1b"},"type":"doctor","_id":"Mz7OWXziONqBZdJ5"}
+{"number":9,"code":"T4","question":"Is the tumor thickness more than 4.0 ?","answers":{"true":"10","false":"10"},"type":"doctor","_id":"OgAQkwafiYR9AWew"}
+{"number":10,"code":"","question":"Is there any ulceration ?","answers":{"true":"T4b","false":"T4a"},"type":"doctor","_id":"OqnlyFwqr8X6zDLa"}
+{"number":11,"code":"N0","question":"Is there any regional lymph nodes metastases detected ?","answers":{"true":"12","false":"N0"},"type":"doctor","_id":"VsJXdPbiWX8xurxk"}
+{"number":8,"code":"","question":"Is there any ulceration ?","answers":{"true":"T3b","false":"T3a"},"type":"doctor","_id":"iG0XiuyOYuVHn70z"}
+{"number":1,"code":"Tis","question":"Is the tumor in situ ?","answers":{"true":"Tis","false":"2"},"type":"doctor","_id":"mzh1oOetWkBFoibK"}
+{"number":6,"code":"","question":"Is there any ulceration ?","answers":{"true":"T2b","false":"T2a"},"type":"doctor","_id":"ydS928lJv7CI8Rzg"}
