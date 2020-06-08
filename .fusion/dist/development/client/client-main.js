@@ -31,7 +31,7 @@ module.exports = __webpack_require__.p + "6be6c2aec87df78d3f11a55bab446e14.css";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var fusion_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fusion-react */ "./node_modules/fusion-react/dist/browser.es2017.es.js");
+/* harmony import */ var fusion_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fusion-react */ "./node_modules/fusion-react/dist-browser-esm/index.js");
 /* harmony import */ var fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! fusion-plugin-react-router */ "./node_modules/fusion-plugin-react-router/dist-browser-esm/index.js");
 /* harmony import */ var fusion_plugin_styletron_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! fusion-plugin-styletron-react */ "./node_modules/fusion-plugin-styletron-react/dist-browser-esm/index.js");
 /* harmony import */ var fusion_plugin_react_helmet_async__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! fusion-plugin-react-helmet-async */ "./node_modules/fusion-plugin-react-helmet-async/dist-browser-esm/index.js");
@@ -120,49 +120,56 @@ const GettingStartedLink = Object(fusion_plugin_styletron_react__WEBPACK_IMPORTE
 });
 GettingStartedLink.displayName = "GettingStartedLink";
 
-const Home = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FullHeightDiv, {
+const Home = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FullHeightDiv, {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 50
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
+    lineNumber: 50,
+    columnNumber: 3
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 51
-  },
-  __self: undefined
-}, "\n        html,body,#root{height:100%;}\n        html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0);}\n        body{margin:0;}\n        button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}\n        input::-webkit-inner-spin-button,input::-webkit-outer-spin-button,input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-webkit-search-results-button,input::-webkit-search-results-decoration{display:none;}\n        "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Center, {
+    lineNumber: 51,
+    columnNumber: 5
+  }
+}, "\n        html,body,#root{height:100%;}\n        html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0);}\n        body{margin:0;}\n        button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}\n        input::-webkit-inner-spin-button,input::-webkit-outer-spin-button,input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-webkit-search-results-button,input::-webkit-search-results-decoration{display:none;}\n        "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Center, {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 60
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FusionStyle, {
+    lineNumber: 60,
+    columnNumber: 5
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FusionStyle, {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 61
-  },
-  __self: undefined
-}, "Fusion.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Center, {
+    lineNumber: 61,
+    columnNumber: 7
+  }
+}, "Fusion.js"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Center, {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 63
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Circle, {
+    lineNumber: 63,
+    columnNumber: 7
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Circle, {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 64
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(GettingStartedLink, {
+    lineNumber: 64,
+    columnNumber: 9
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(GettingStartedLink, {
   href: "https://fusionjs.com/docs/overview",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 65
-  },
-  __self: undefined
+    lineNumber: 65,
+    columnNumber: 11
+  }
 }, "Let's Get Started")))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -185,18 +192,20 @@ var _jsxFileName = "/Users/sapi_mabur/Documents/playground/bangkit/bangkit-final
 
 
 
-const PageNotFound = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_1__["NotFound"], {
+const PageNotFound = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_1__["NotFound"], {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    lineNumber: 6,
+    columnNumber: 3
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7
-  },
-  __self: undefined
+    lineNumber: 7,
+    columnNumber: 5
+  }
 }, "404"));
 
 /* harmony default export */ __webpack_exports__["default"] = (PageNotFound);
@@ -213,15 +222,14 @@ const PageNotFound = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createEl
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DatabaseToken", function() { return DatabaseToken; });
-/* harmony import */ var fusion_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fusion-core */ "./node_modules/fusion-core/dist/browser.es2017.es.js");
+/* harmony import */ var fusion_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fusion-core */ "./node_modules/fusion-core/dist-browser-esm/create-token.js");
+/* harmony import */ var fusion_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! fusion-core */ "./node_modules/fusion-core/dist-browser-esm/create-plugin.js");
 
 const DatabaseToken = Object(fusion_core__WEBPACK_IMPORTED_MODULE_0__["createToken"])('DatabaseToken');
 
-var _default =
-/*#__PURE__*/
-Object(fusion_core__WEBPACK_IMPORTED_MODULE_0__["createPlugin"])({
+var _default = /*#__PURE__*/Object(fusion_core__WEBPACK_IMPORTED_MODULE_1__["createPlugin"])({
   provides: () => {
-    const DataStore = __webpack_require__(/*! nedb */ "./node_modules/nedb/index.js");
+    const DataStore = __webpack_require__(/*! nedb-promise */ "./node_modules/nedb-promise/index.js");
 
     return {
       questions: () => {
@@ -233,7 +241,7 @@ Object(fusion_core__WEBPACK_IMPORTED_MODULE_0__["createPlugin"])({
       },
       rules: () => {
         const db = new DataStore({
-          filename: '../../../database/rules.db',
+          filename: './database/rules.db',
           autoload: true
         });
         return db;
@@ -256,150 +264,313 @@ Object(fusion_core__WEBPACK_IMPORTED_MODULE_0__["createPlugin"])({
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "QuestionAPIToken", function() { return QuestionAPIToken; });
-/* harmony import */ var fusion_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fusion-core */ "./node_modules/fusion-core/dist/browser.es2017.es.js");
-/* harmony import */ var _core_database__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core/database */ "./src/plugins/core/database.js");
+/* harmony import */ var fusion_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fusion-core */ "./node_modules/fusion-core/dist-browser-esm/create-token.js");
+/* harmony import */ var fusion_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! fusion-core */ "./node_modules/fusion-core/dist-browser-esm/create-plugin.js");
+/* harmony import */ var _core_database__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../core/database */ "./src/plugins/core/database.js");
 
 
 const QuestionAPIToken = Object(fusion_core__WEBPACK_IMPORTED_MODULE_0__["createToken"])('QuestionAPIToken');
 
-var _default =
-/*#__PURE__*/
-Object(fusion_core__WEBPACK_IMPORTED_MODULE_0__["createPlugin"])({
+var _default = /*#__PURE__*/Object(fusion_core__WEBPACK_IMPORTED_MODULE_1__["createPlugin"])({
   deps: {
-    db: _core_database__WEBPACK_IMPORTED_MODULE_1__["DatabaseToken"]
+    db: _core_database__WEBPACK_IMPORTED_MODULE_2__["DatabaseToken"]
   },
   provides: ({
     db
   }) => ({
-    questions: db.questions()
+    questions: db.questions(),
+    rules: db.rules()
   }),
   middleware: ({
     db
   }, {
-    questions
+    questions,
+    rules
   }) => async (ctx, next) => {
     if (ctx.path === '/api/questions') {
       if (ctx.method === 'POST') {
-        const rules = [];
-        rules.push({
-          number: 1,
-          code: 'Tis',
-          question: 'Is the tumor in situ ?',
-          answers: {
-            true: 'Tis',
-            false: '2'
-          },
-          type: 'doctor'
+        const data = [{
+          "stadium": "0",
+          "T": "Tis",
+          "N": "N0",
+          "M": "M0"
         }, {
-          number: 2,
-          code: 'T1',
-          question: 'Is the tumor thickness less than equeal 1.0 mm ?',
-          answers: {
-            true: '3',
-            false: '5'
-          },
-          type: 'doctor'
+          "stadium": "1a",
+          "T": "T1a",
+          "N": "N0",
+          "M": "M0"
         }, {
-          number: 3,
-          code: 'T1a',
-          question: 'Is the tumor tickness less than 0.8 mm and without ulceration ?',
-          answers: {
-            true: 'T1a',
-            false: 'T1b'
-          },
-          type: 'doctor'
+          "stadium": "1b",
+          "T": "T1b",
+          "N": "N0",
+          "M": "M0"
         }, {
-          number: 5,
-          code: 'T2',
-          question: 'Is the tumor thickness between 1.0 mm and 2.0 mm ?',
-          answers: {
-            true: '6',
-            false: '7'
-          },
-          type: 'doctor'
+          "stadium": "1b",
+          "T": "T2a",
+          "N": "N0",
+          "M": "M0"
         }, {
-          number: 6,
-          code: '',
-          question: 'Is there any ulceration ?',
-          answers: {
-            true: 'T2b',
-            false: 'T2a'
-          },
-          type: 'doctor'
+          "stadium": "2a",
+          "T": "T2b",
+          "N": "N0",
+          "M": "M0"
         }, {
-          number: 7,
-          code: 'T3',
-          question: 'Is the tumor thickness between 2.0 mm and 4.0 mm ?',
-          answers: {
-            true: '9',
-            false: '8'
-          },
-          type: 'doctor'
+          "stadium": "2a",
+          "T": "T3a",
+          "N": "N0",
+          "M": "M0"
         }, {
-          number: 8,
-          code: '',
-          question: 'Is there any ulceration ?',
-          answers: {
-            true: 'T3b',
-            false: 'T3a'
-          },
-          type: 'doctor'
+          "stadium": "2b",
+          "T": "T3b",
+          "N": "N0",
+          "M": "M0"
         }, {
-          number: 9,
-          code: 'T4',
-          question: 'Is the tumor thickness more than 4.0 ?',
-          answers: {
-            true: '10',
-            false: '10'
-          },
-          type: 'doctor'
+          "stadium": "2b",
+          "T": "T4a",
+          "N": "N0",
+          "M": "M0"
         }, {
-          number: 10,
-          code: '',
-          question: 'Is there any ulceration ?',
-          answers: {
-            true: 'T4b',
-            false: 'T4a'
-          },
-          type: 'doctor'
+          "stadium": 3,
+          "T": "T1a",
+          "N": "N1",
+          "M": "M0"
         }, {
-          number: 11,
-          code: 'N0',
-          question: 'Is there any regional lymph nodes metastases detected ?',
-          answers: {
-            true: '12',
-            false: 'N0'
-          },
-          type: 'doctor'
+          "stadium": 3,
+          "T": "T1a",
+          "N": "N2",
+          "M": "M0"
         }, {
-          number: 12,
-          code: 'N1',
-          question: 'Is there one tumor involved nodes ?',
-          answers: {
-            true: 'N1',
-            false: '13'
-          },
-          type: 'doctor'
+          "stadium": 3,
+          "T": "T1a",
+          "N": "N3",
+          "M": "M0"
         }, {
-          number: 13,
-          code: 'N2',
-          question: 'Are there 2 or 3 tumors involved nodes ?',
-          answers: {
-            true: 'N2',
-            false: 'N3'
-          },
-          type: 'doctor'
+          "stadium": 3,
+          "T": "T1b",
+          "N": "N1",
+          "M": "M0"
         }, {
-          number: 15,
-          code: 'M0',
-          question: 'Is there evidence of distance metastases ?',
-          answers: {
-            true: 'M1',
-            false: 'M0'
-          },
-          type: 'doctor'
-        });
-        const newData = await questions.insert(rules);
+          "stadium": 3,
+          "T": "T1b",
+          "N": "N2",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T1b",
+          "N": "N3",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T2a",
+          "N": "N1",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T2a",
+          "N": "N2",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T2a",
+          "N": "N3",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T2b",
+          "N": "N1",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T2b",
+          "N": "N2",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T2b",
+          "N": "N3",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T3a",
+          "N": "N1",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T3a",
+          "N": "N2",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T3a",
+          "N": "N3",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T3b",
+          "N": "N1",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T3b",
+          "N": "N2",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T3b",
+          "N": "N3",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T4a",
+          "N": "N1",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T4a",
+          "N": "N2",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T4a",
+          "N": "N3",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T4b",
+          "N": "N1",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T4b",
+          "N": "N2",
+          "M": "M0"
+        }, {
+          "stadium": 3,
+          "T": "T4b",
+          "N": "N3",
+          "M": "M0"
+        }, {
+          "stadium": 4,
+          "T": "T1a",
+          "N": "N1",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T1a",
+          "N": "N2",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T1a",
+          "N": "N3",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T1b",
+          "N": "N1",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T1b",
+          "N": "N2",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T1b",
+          "N": "N3",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T2a",
+          "N": "N1",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T2a",
+          "N": "N2",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T2a",
+          "N": "N3",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T2b",
+          "N": "N1",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T2b",
+          "N": "N2",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T2b",
+          "N": "N3",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T3a",
+          "N": "N1",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T3a",
+          "N": "N2",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T3a",
+          "N": "N3",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T3b",
+          "N": "N1",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T3b",
+          "N": "N2",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T3b",
+          "N": "N3",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T4a",
+          "N": "N1",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T4a",
+          "N": "N2",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T4a",
+          "N": "N3",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T4b",
+          "N": "N1",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T4b",
+          "N": "N2",
+          "M": "M1"
+        }, {
+          "stadium": 4,
+          "T": "T4b",
+          "N": "N3",
+          "M": "M1"
+        }];
+        const newData = await rules.insert(data);
         console.log('newData', newData);
         ctx.response.status = 201;
         ctx.response.body = newData;
@@ -444,19 +615,21 @@ const Home = () => {
     console.log('data', data);
   };
 
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: undefined
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      lineNumber: 19,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["default"], {
     onClick: handleOnClick,
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: undefined
+      lineNumber: 20,
+      columnNumber: 7
+    }
   }, "Click Here"));
 };
 
@@ -473,7 +646,7 @@ const Home = () => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var fusion_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fusion-core */ "./node_modules/fusion-core/dist/browser.es2017.es.js");
+/* harmony import */ var fusion_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fusion-core */ "./node_modules/fusion-core/dist-browser-esm/virtual/index.js");
 /* harmony import */ var fusion_plugin_react_helmet_async__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! fusion-plugin-react-helmet-async */ "./node_modules/react-helmet-async/lib/index.module.js");
 /* harmony import */ var fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! fusion-plugin-react-router */ "./node_modules/fusion-plugin-react-router/dist-browser-esm/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
@@ -530,381 +703,431 @@ class MobileMenuItems extends react__WEBPACK_IMPORTED_MODULE_3__["Component"] {
     });
 
     _defineProperty(this, "render", () => {
-      return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_4__["default"], {
         padded: true,
         className: "mobile only",
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          lineNumber: 44,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"], {
         borderless: true,
         fluid: true,
         size: "huge",
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+          lineNumber: 45,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
         header: true,
         as: "a",
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
-        },
-        __self: this
-      }, "Project Name"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Menu, {
+          lineNumber: 46,
+          columnNumber: 11
+        }
+      }, "Project Name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Menu, {
         position: "right",
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+          lineNumber: 49,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_6__["default"], {
+          lineNumber: 50,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_6__["default"], {
         icon: true,
         basic: true,
         toggle: true,
         onClick: this.handleToggleDropdownMenu,
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__["default"], {
+          lineNumber: 51,
+          columnNumber: 15
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__["default"], {
         name: "content",
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
-        },
-        __self: this
-      })))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          lineNumber: 57,
+          columnNumber: 17
+        }
+      })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"], {
         vertical: true,
         borderless: true,
         fluid: true,
         style: this.state.dropdownMenuStyle,
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+          lineNumber: 61,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
         active: true,
         as: "a",
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
-        },
-        __self: this
-      }, "Home"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+          lineNumber: 67,
+          columnNumber: 13
+        }
+      }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
         as: "a",
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
-        },
-        __self: this
-      }, "About"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+          lineNumber: 70,
+          columnNumber: 13
+        }
+      }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
         as: "a",
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
-        },
-        __self: this
-      }, "Contact"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"], {
+          lineNumber: 71,
+          columnNumber: 13
+        }
+      }, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"], {
         text: "Dropdown",
         className: "item",
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"].Menu, {
+          lineNumber: 72,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"].Menu, {
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"].Item, {
+          lineNumber: 73,
+          columnNumber: 15
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"].Item, {
         as: "a",
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
-        },
-        __self: this
-      }, "Action"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"].Item, {
+          lineNumber: 74,
+          columnNumber: 17
+        }
+      }, "Action"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"].Item, {
         as: "a",
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
-        },
-        __self: this
-      }, "Another action"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"].Item, {
+          lineNumber: 75,
+          columnNumber: 17
+        }
+      }, "Another action"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"].Item, {
         as: "a",
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
-        },
-        __self: this
-      }, "Something else here"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"].Divider, {
+          lineNumber: 76,
+          columnNumber: 17
+        }
+      }, "Something else here"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"].Divider, {
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"].Header, {
+          lineNumber: 77,
+          columnNumber: 17
+        }
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"].Header, {
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
-        },
-        __self: this
-      }, "Navbar header"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"].Item, {
+          lineNumber: 78,
+          columnNumber: 17
+        }
+      }, "Navbar header"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"].Item, {
         as: "a",
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
-        },
-        __self: this
-      }, "Seperated link"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"].Item, {
+          lineNumber: 79,
+          columnNumber: 17
+        }
+      }, "Seperated link"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_8__["default"].Item, {
         as: "a",
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
-        },
-        __self: this
-      }, "One more seperated link"))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+          lineNumber: 80,
+          columnNumber: 17
+        }
+      }, "One more seperated link"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
         as: "a",
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
-        },
-        __self: this
-      }, "Default"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+          lineNumber: 83,
+          columnNumber: 13
+        }
+      }, "Default"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
         active: true,
         as: "a",
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
-        },
-        __self: this
-      }, "Static top"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+          lineNumber: 84,
+          columnNumber: 13
+        }
+      }, "Static top"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
         as: "a",
+        __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
-        },
-        __self: this
+          lineNumber: 87,
+          columnNumber: 13
+        }
       }, "Fixed top"))));
     });
   }
 
 }
 
-const MenuItems = () => react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_4__["default"], {
+const MenuItems = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_4__["default"], {
   padded: true,
   className: "tablet computer only",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 96
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    lineNumber: 96,
+    columnNumber: 3
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"], {
   borderless: true,
   fluid: true,
   size: "huge",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 97
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    lineNumber: 97,
+    columnNumber: 5
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 98
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+    lineNumber: 98,
+    columnNumber: 7
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
   header: true,
   as: "a",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 99
-  },
-  __self: undefined
-}, "Melanoma App"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+    lineNumber: 99,
+    columnNumber: 9
+  }
+}, "Melanoma App"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 102
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    lineNumber: 102,
+    columnNumber: 9
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
   to: "/",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 102
-  },
-  __self: undefined
-}, "Home")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+    lineNumber: 102,
+    columnNumber: 20
+  }
+}, "Home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 103
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    lineNumber: 103,
+    columnNumber: 9
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
   to: "/predict",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 103
-  },
-  __self: undefined
-}, "Predict")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+    lineNumber: 103,
+    columnNumber: 20
+  }
+}, "Predict")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 104
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    lineNumber: 104,
+    columnNumber: 9
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
   to: "/info",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 104
-  },
-  __self: undefined
-}, "Info")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+    lineNumber: 104,
+    columnNumber: 20
+  }
+}, "Info")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 105
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    lineNumber: 105,
+    columnNumber: 9
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
   to: "/about",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 105
-  },
-  __self: undefined
+    lineNumber: 105,
+    columnNumber: 20
+  }
 }, "About")))));
 
-const DynamicContent = () => react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_2__["Switch"], {
+const DynamicContent = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_2__["Switch"], {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 112
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    lineNumber: 112,
+    columnNumber: 3
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_2__["Route"], {
   exact: true,
   path: "/",
   component: _plugins_home_components_main_js__WEBPACK_IMPORTED_MODULE_11__["default"],
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 113
-  },
-  __self: undefined
-}), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    lineNumber: 113,
+    columnNumber: 5
+  }
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_2__["Route"], {
   exact: true,
   path: "/home2",
   component: _pages_home_xxx_js__WEBPACK_IMPORTED_MODULE_10__["default"],
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 114
-  },
-  __self: undefined
-}), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    lineNumber: 114,
+    columnNumber: 5
+  }
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_router__WEBPACK_IMPORTED_MODULE_2__["Route"], {
   component: _pages_pageNotFound_js__WEBPACK_IMPORTED_MODULE_12__["default"],
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 115
-  },
-  __self: undefined
+    lineNumber: 115,
+    columnNumber: 5
+  }
 }));
 
 class App extends react__WEBPACK_IMPORTED_MODULE_3__["Component"] {
   render() {
-    return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
       className: "App",
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 124
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_helmet_async__WEBPACK_IMPORTED_MODULE_1__["Helmet"], {
+        lineNumber: 124,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(fusion_plugin_react_helmet_async__WEBPACK_IMPORTED_MODULE_1__["Helmet"], {
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 125
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("link", {
+        lineNumber: 125,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("link", {
       rel: "stylesheet",
       href: cssBasic,
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 126
-      },
-      __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("link", {
+        lineNumber: 126,
+        columnNumber: 11
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("link", {
       rel: "stylesheet",
       href: cssLayoutBasic,
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 127
-      },
-      __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("link", {
+        lineNumber: 127,
+        columnNumber: 11
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("link", {
       rel: "stylesheet",
       href: cssLayout,
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 128
-      },
-      __self: this
-    })), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(MenuItems, {
+        lineNumber: 128,
+        columnNumber: 11
+      }
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(MenuItems, {
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 130
-      },
-      __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(MobileMenuItems, {
+        lineNumber: 130,
+        columnNumber: 9
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(MobileMenuItems, {
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 131
-      },
-      __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        lineNumber: 131,
+        columnNumber: 9
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 132
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+        lineNumber: 132,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
       className: "dynamic-content",
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 133
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(DynamicContent, {
+        lineNumber: 133,
+        columnNumber: 11
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(DynamicContent, {
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 134
-      },
-      __self: this
+        lineNumber: 134,
+        columnNumber: 13
+      }
     }))));
   }
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(App, {
+/* harmony default export */ __webpack_exports__["default"] = (/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(App, {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 142
-  },
-  __self: undefined
+    lineNumber: 142,
+    columnNumber: 16
+  }
 }));
 
 /***/ }),

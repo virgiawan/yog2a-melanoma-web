@@ -13,7 +13,7 @@
     "fusion-tokens": "^2.0.9",
     "isomorphic-fetch": "^2.2.1",
     "koa-bodyparser": "^4.3.0",
-    "nedb": "^1.8.0",
+    "nedb-promise": "^2.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",

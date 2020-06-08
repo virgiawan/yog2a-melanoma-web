@@ -4,7 +4,7 @@ export const DatabaseToken = createToken('DatabaseToken');
 
 export default createPlugin({
   provides: () => {
-    const DataStore = require('nedb');
+    const DataStore = require('nedb-promise');
 
     return {
       questions: () => {
@@ -12,7 +12,7 @@ export default createPlugin({
         return db;
       },
       rules: () => {
-        const db = new DataStore({filename: '../../../database/rules.db', autoload: true});
+        const db = new DataStore({filename: './database/rules.db', autoload: true});
         return db;
       }
     };
