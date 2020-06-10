@@ -6,7 +6,8 @@ import HelmetPlugin from 'fusion-plugin-react-helmet-async';
 
 import Database, {DatabaseToken} from './plugins/core/database';
 
-import QuestionAPI, {QuestionAPIToken} from './plugins/home/api/question';
+import RPCServices, {RPCServiceToken} from './plugins/main/api/rpcServices';
+import FetcherServices, {FetcherToken} from './plugins/main/api/fetcher';
 
 import root from './root.js';
 
@@ -15,8 +16,11 @@ export default () => {
   if (__NODE__) {
     app.register(DatabaseToken, Database);
     app.middleware(require('koa-bodyparser')());
-    app.register(QuestionAPIToken, QuestionAPI);
+    app.register(RPCServiceToken, RPCServices);
   }
+
+  app.register(FetcherToken, FetcherServices);
+
   app.register(HelmetPlugin);
   app.register(Styletron);
   app.register(Router);
