@@ -17,7 +17,6 @@ const  items = [
 ];
 
 const Home = (props) => {
-  console.log('PROPS', props);
   return <Card.Group centered items={items} />;
 };
 

@@ -12,20 +12,10 @@ export default createPlugin({
   }),
   middleware: ({db}, {questions, rules, scorings}) => async (ctx, next) => {
     if (ctx.method === 'POST') {
-      if (ctx.path === '/api/addScoring') {
-        const result = await scorings.insert([
-          // SCOER 1
-          {type: 'person', question: 'Inflammation', score: 1},
-          {type: 'person', question: 'Itch or altered sensation', score: 1},
-          {type: 'person', question: 'Larger than other lesions (diameter more than 7 mm)', score: 1},
-          {type: 'person', question: 'Oozing/crusting of lesion', score: 1},
-          // SCORE 2
-          {type: 'person', question: 'Change in size of lesion', score: 2},
-          {type: 'person', question: 'Irregular pigmentation', score: 2},
-          {type: 'person', question: 'Irregular border', score: 2},
-        ]);
+      if (ctx.path === '/api/getScorings') {
+        const {score} = ctx.request.body;
+        const result = await scorings.find({score});
 
-        console.log('RESULT', result);
         ctx.response.body = result;
         ctx.response.status = 201;
       }

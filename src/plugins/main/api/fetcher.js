@@ -21,6 +21,19 @@ export default createPlugin({
           .catch(callbackErr);
       },
 
+      getScorings: ({nextScorings}, callback, callbackErr) => {
+        fetch('/api/getScorings', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({score: nextScorings})
+        })
+          .then(async res => await res.json())
+          .then(callback)
+          .catch(callbackErr);
+      },
+
       submitAnswer: ({questionId, answer}, callback, callbackErr) => {
         fetch('/api/submitAnswer', {
           method: 'POST',

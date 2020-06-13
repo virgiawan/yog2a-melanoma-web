@@ -1,6 +1,5 @@
 import React, { useState, useEffect, Fragment } from 'react';
 import {useService} from 'fusion-react';
-import {FetcherToken} from '../api/fetcher';
 
 import { Button, Card, Header } from 'semantic-ui-react';
 
@@ -11,6 +10,8 @@ import isNumber from 'lodash/isNumber';
 import keys from 'lodash/keys';
 import toNumber from 'lodash/toNumber';
 import toString from 'lodash/toString';
+
+import {FetcherToken} from '../api/fetcher';
 
 import Stadium0 from './stadium0';
 import Stadium1And2 from './stadium1And2';
@@ -112,8 +113,8 @@ const DoctorPage = (props) => {
           </Card.Content>
           <Card.Content extra>
             <div className='ui two buttons'>
-              <Button basic onClick={() => location.reload()} color='blue'>Recheck</Button>
-              {/* <Button basic onClick={() => alert('Medicine')} color='green'>See Treatment</Button> */}
+            <Button basic onClick={() => location.href = '/'} color='blue'>Want to check again ?</Button>
+              <Button basic onClick={() => location.href = '/info'} color='green'>More about melanoma</Button>
             </div>
           </Card.Content>
         </Card>}
