@@ -1,5 +1,4 @@
 import React, { useState, useEffect, Fragment } from 'react';
-import fetch from 'isomorphic-fetch';
 import {useService} from 'fusion-react';
 import {FetcherToken} from '../api/fetcher';
 

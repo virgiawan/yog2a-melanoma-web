@@ -11,6 +11,7 @@ import {
 
 import PageNotFound from './pages/pageNotFound';
 import Doctor from './plugins/main/components/doctor';
+import Person from './plugins/main/components/person';
 import Info from './plugins/main/components/info';
 import About from './plugins/main/components/about';
 import Home from './plugins/main/components/main';
@@ -39,6 +40,7 @@ const DynamicContent = () => (
   <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/doctor" component={Doctor} />
+    <Route exact path="/person" component={Person} />
     <Route exact path="/info" component={Info} />
     <Route exact path="/about" component={About} />
     <Route component={PageNotFound} />

@@ -12,7 +12,7 @@ const  items = [
     header: 'Non-medical user',
     description:
       'If you are a person who have a symptomp melanoma alike, you can use this system to help you reassure your symptomp.',
-    onClick: () => alert('Tokek'),
+    onClick: () => location.href = '/person',
   },
 ];
 

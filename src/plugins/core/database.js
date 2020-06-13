@@ -11,6 +11,10 @@ export default createPlugin({
         const db = new DataStore({filename: './database/questions.db', autoload: true});
         return db;
       },
+      scorings: () => {
+        const db = new DataStore({filename: './database/scorings.db', autoload: true});
+        return db;
+      },
       rules: () => {
         const db = new DataStore({filename: './database/rules.db', autoload: true});
         return db;
