@@ -1,5 +1,7 @@
 import React, {Fragment, useEffect, useState} from 'react';
+import {useLocation} from 'fusion-plugin-react-router';
 import {useService} from 'fusion-react';
+import { Base64 } from 'js-base64';
 
 import map from 'lodash/map';
 import isEmpty from 'lodash/isEmpty';
@@ -20,12 +22,20 @@ const _ = {
   set, get, values, isNull, filter
 };
 
+function useQuery() {
+  return new URLSearchParams(useLocation().search);
+}
+
 const Person = (props, state) => {
   const [scorings, setScorings] = useState([]);
   const [counter, setCounter] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [nextScorings, setNextScorings] = useState(1);
   const [totalScores, setTotalScores] = useState(null);
+  let query = useQuery();
+  const ohQuery = query.get('oh');
+  let prediction = Base64.decode(ohQuery);
+  prediction = JSON.parse(prediction);
 
   const Fetcher = useService(FetcherToken);
 
@@ -131,15 +141,22 @@ const Person = (props, state) => {
           <Card.Content>
             <Card.Header>Conclusion:</Card.Header>
             <Card.Description>
-              {totalScores >= 3 ?
-                <div>
-                  <p style={{color: 'orange', fontWeight: 'bolder'}}>There is possibility of melanoma.</p>
-                  <p>Please discuss about your condition with your doctor.</p>
-                </div> :
-                <div>
-                  <p style={{color: 'green', fontWeight: 'bolder'}}>It's okay.</p>
-                  <p>You haven't needed discussing about your condition with your doctor yet. Please observe your condition regularly.</p>
-                </div>}
+              <div style={{marginBottom: 20, fontSize: 14}}>
+                <p>Image Prediction Result: {prediction.predicted}</p>
+                <p>Probability: {prediction.probability * 100} %</p>
+              </div>
+              <div>
+                {totalScores >= 3 ?
+                  <div>
+                    <p style={{color: 'orange', fontWeight: 'bolder'}}>There is possibility of melanoma.</p>
+                    <p>Please discuss about your condition with your doctor.</p>
+                  </div> :
+                  <div>
+                    <p style={{color: 'green', fontWeight: 'bolder'}}>It's okay.</p>
+                    <p>You haven't needed discussing about your condition with your doctor yet. Please observe your condition regularly.</p>
+                  </div>
+                }
+              </div>
             </Card.Description>
           </Card.Content>
           <Card.Content extra>

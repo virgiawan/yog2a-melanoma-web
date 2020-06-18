@@ -37,6 +37,9 @@ const About = () => (<Fragment>
   </List>
 
   <Header size="medium" style={{marginTop: 60}}>Collaborate With:</Header>
+  <div>
+    <p>The enforcement of stadium and symptoms rules was helped by dr. Silvia.</p>
+  </div>
   <List>
     <List.Item style={{marginBottom: 10}}>
       <Image style={{marginRight: 10, marginTop: 3}} avatar src={assetUrl('../../../../img/rachel.png')} />
@@ -53,6 +56,12 @@ const About = () => (<Fragment>
     <List.Item as='li'><a href="https://emedicine.medscape.com/article/2007147-overview#a1" target="blank">https://emedicine.medscape.com/article/2007147-overview#a1</a></List.Item>
     <List.Item as='li'><a href="https://www.nhs.uk/conditions/melanoma-skin-cancer/treatment/" target="blank">https://www.nhs.uk/conditions/melanoma-skin-cancer/treatment/</a></List.Item>
     <List.Item as='li'><a href="https://emedicine.medscape.com/article/280245-treatment#d1" target="blank">https://emedicine.medscape.com/article/280245-treatment#d1</a></List.Item>
+  </List>
+
+  <Header size="medium" style={{marginTop: 60}}>News and Info Source:</Header>
+  <List as='ul'>
+    <List.Item as='li'><a href="https://pubmed.ncbi.nlm.nih.gov" target="blank">PubMed</a></List.Item>
+    <List.Item as='li'><a href="https://health.detik.com" target="blank">Detik Health</a></List.Item>
   </List>
 
 </Fragment>);

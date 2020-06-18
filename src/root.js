@@ -14,7 +14,8 @@ import Doctor from './plugins/main/components/doctor';
 import Person from './plugins/main/components/person';
 import Info from './plugins/main/components/info';
 import About from './plugins/main/components/about';
-import Home from './plugins/main/components/main';
+import Upload from './plugins/main/components/upload';
+import Questions from './plugins/main/components/questions';
 
 
 const cssBasic = assetUrl('../node_modules/semantic-ui-css/semantic.min.css');
@@ -29,7 +30,7 @@ const MenuItems = () => (
           Melanoma App
         </Menu.Item>
         <Menu.Item><Link to="/">Home</Link></Menu.Item>
-        <Menu.Item><Link to="/info">Info</Link></Menu.Item>
+        <Menu.Item><Link to="/info">News and Info</Link></Menu.Item>
         <Menu.Item><Link to="/about">About</Link></Menu.Item>
       </Container>
     </Menu>
@@ -38,7 +39,8 @@ const MenuItems = () => (
 
 const DynamicContent = () => (
   <Switch>
-    <Route exact path="/" component={Home} />
+    <Route exact path="/" component={Questions} />
+    <Route exact path="/upload" component={Upload} />
     <Route exact path="/doctor" component={Doctor} />
     <Route exact path="/person" component={Person} />
     <Route exact path="/info" component={Info} />
@@ -54,9 +56,11 @@ class App extends Component {
     return (
       <div className="App">
         <Helmet>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
           <link rel="stylesheet" href={cssBasic} />
           <link rel="stylesheet" href={cssLayoutBasic} />
           <link rel="stylesheet" href={cssLayout} />
+
         </Helmet>
         <MenuItems />
         <Container>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect, Fragment } from 'react';
 import {useService} from 'fusion-react';
-
+import {useLocation} from 'fusion-plugin-react-router';
+import { Base64 } from 'js-base64';
 import { Button, Card, Header } from 'semantic-ui-react';
 
 import intersection from 'lodash/intersection';
@@ -25,6 +26,10 @@ const _ = {
   toString
 }
 
+function useQuery() {
+  return new URLSearchParams(useLocation().search);
+}
+
 const DoctorPage = (props) => {
   const questionType = {T: 'Tumor', N: "Lymph Nodes", M: "Metastases"};
   const [question, setQuestion] = useState({});
@@ -33,6 +38,10 @@ const DoctorPage = (props) => {
   const [answers, setAnswers] = useState({});
   const [stadium, setStadium] = useState(null);
   const treatments = [<Stadium0 />, <Stadium1And2 />, <Stadium1And2 />, <Stadium3 />, <Stadium4 />, <Uncommon />];
+  let query = useQuery();
+  const ohQuery = query.get('oh');
+  let prediction = Base64.decode(ohQuery);
+  prediction = JSON.parse(prediction);
 
   const Fetcher = useService(FetcherToken);
 
@@ -101,14 +110,20 @@ const DoctorPage = (props) => {
               <Card.Header>Stadium {stadium.stadium}</Card.Header> :
               <Card.Header>Uncommon Case</Card.Header>}
             <Card.Description>
-            {stadium.stadium != 5 ?
-              <p>The cancer already reached stadium: <strong>{stadium.stadium}</strong></p> :
-              null}
+              <div style={{marginBottom: 20, fontSize: 14}}>
+                <p>Image Prediction Result: {prediction.predicted}</p>
+                <p>Probability: {prediction.probability * 100} %</p>
+              </div>
+              <div>
+                {stadium.stadium != 5 ?
+                  <p>The cancer already reached stadium: <strong>{stadium.stadium}</strong></p> :
+                  null}
 
-              {treatments[
-                _.isNumber(_.toNumber(stadium.stadium)) && !_.isNan(_.toNumber(stadium.stadium)) ?
-                  stadium.stadium :
-                  _.toNumber(_.toString(stadium.stadium).charAt(0))]}
+                {treatments[
+                  _.isNumber(_.toNumber(stadium.stadium)) && !_.isNan(_.toNumber(stadium.stadium)) ?
+                    stadium.stadium :
+                    _.toNumber(_.toString(stadium.stadium).charAt(0))]}
+              </div>
             </Card.Description>
           </Card.Content>
           <Card.Content extra>

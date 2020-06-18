@@ -1,12 +1,24 @@
 import {createPlugin, createToken} from 'fusion-core';
 import fetch from 'isomorphic-fetch';
-import { call } from 'ramda';
 
 export const FetcherToken = createToken('FetcherToken');
 
 export default createPlugin({
   provides: () => {
     return {
+
+      getNews: ({startIndex}, callback, callbackErr) => {
+        fetch('/api/getNews', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({startIndex})
+        })
+          .then(async res => await res.json())
+          .then(callback)
+          .catch(callbackErr);
+      },
 
       getQuestion: ({nextQuestion}, callback, callbackErr) => {
         fetch('/api/getQuestion', {
