@@ -37,7 +37,7 @@
     "test": "fusion test",
     "build": "fusion build",
     "build-production": "fusion build --production",
-    "start": "fusion start"
+    "start": "fusion start --port 8080"
   },
   "devDependencies": {
     "@craco/craco": "^5.6.4",
