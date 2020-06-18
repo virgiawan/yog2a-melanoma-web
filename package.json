@@ -37,6 +37,7 @@
     "test": "fusion test",
     "build": "fusion build",
     "build-production": "fusion build --production",
+    "prod-skip-source--map": "fusion build --production --skipSourceMaps",
     "start": "fusion start --port 8080"
   },
   "devDependencies": {
