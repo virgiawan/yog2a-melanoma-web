@@ -1,0 +1,12 @@
+gcloud compute instances create melanoma-web \
+    --image-family=debian-9	 \
+    --image-project=debian-cloud \
+    --machine-type=n1-standard-1 \
+    --scopes userinfo-email,cloud-platform \
+    --metadata app-location=asia-southeast2 \
+    --metadata-from-file startup-script=gce/startup-script.sh \
+    --zone asia-southeast2-a \
+    --tags http-server
+
+
+gcloud compute instances get-serial-port-output melanoma-web --zone asia-southeast2-a

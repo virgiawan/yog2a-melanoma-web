@@ -1,5 +1,24 @@
-# Fusion.js application
+# Melanoma Web Application
 
-Welcome to your Fusion.js application. Get started by running the application with `yarn dev` in a terminal.
+Melanoma Web Application is website application for recognize melanoma cancer symtomps and stadium. This is the final project of [Google Bangkit Programme](https://events.withgoogle.com/bangkit/).
 
-Visit our documentation at: https://fusionjs.com
+## Developer Team:
+1. [Abu Wildan Mucholladin](https://github.com/abuwildanm)
+2. [Reizkian Yesaya](https://github.com/reizkian)
+3. [Virgiawan Huda Akbar](https://github.com/virgiawan)
+4. [Yusuf Mukti](https://github.com/yusufmukti1209)
+
+## Requirements
+Nodejs version shoul be >= 10 and Yarn >= 1.22.4
+
+## Installation
+```
+$ git clone https://github.com/virgiawan/yog2a-melanoma.git
+$ cd yog2a-melanoma
+$ yarn install
+$ yarn dev
+```
+
+This web application has been built using Fusionjs. Please refer to [Fusionjs Documentation](https://fusionjs.com/docs/overview) to see more details.
+
+Please check this running web application: [Melanoma Web App](http://34.101.76.215:8080/)
