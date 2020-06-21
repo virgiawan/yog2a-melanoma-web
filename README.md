@@ -9,7 +9,7 @@ Melanoma Web Application is website application for recognize melanoma cancer sy
 4. [Yusuf Mukti](https://github.com/yusufmukti1209)
 
 ## Requirements
-Nodejs version shoul be >= 10 and Yarn >= 1.22.4
+Nodejs version should be >= 10 and Yarn >= 1.22.4
 
 ## Installation
 ```
@@ -22,3 +22,4 @@ $ yarn dev
 This web application has been built using Fusionjs. Please refer to [Fusionjs Documentation](https://fusionjs.com/docs/overview) to see more details.
 
 Please check this running web application: [Melanoma Web App](http://34.101.76.215:8080/)
+For model that's used in this applocation you can find here [Melanoma Model](https://github.com/virgiawan/yog2a-melanoma)
