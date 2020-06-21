@@ -1,3 +1,4 @@
 node_modules
-.DSTore
+.DS_STore
 .fusion
+.vscode
