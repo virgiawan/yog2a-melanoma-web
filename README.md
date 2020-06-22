@@ -24,3 +24,9 @@ This web application has been built using Fusionjs. Please refer to [Fusionjs Do
 Please check this running web application: [Melanoma Web App](http://34.101.76.215:8080/)
 
 For model that's used in this applocation you can find here [Melanoma Model](https://github.com/virgiawan/yog2a-melanoma)
+
+## References
+- [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3635581/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3635581/)
+- [https://emedicine.medscape.com/article/2007147-overview#a1](https://emedicine.medscape.com/article/2007147-overview#a1)
+- [https://www.nhs.uk/conditions/melanoma-skin-cancer/treatment/](https://www.nhs.uk/conditions/melanoma-skin-cancer/treatment/)
+- [https://emedicine.medscape.com/article/280245-treatment#d1](https://emedicine.medscape.com/article/280245-treatment#d1)
