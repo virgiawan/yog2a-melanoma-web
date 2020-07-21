@@ -18,7 +18,7 @@
     "js-base64": "^2.5.2",
     "koa-bodyparser": "^4.3.0",
     "koa-busboy": "^1.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "nedb-promise": "^2.0.1",
     "prop-types": "^15.7.2",
     "ramda": "^0.27.0",

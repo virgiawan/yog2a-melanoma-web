@@ -4393,7 +4393,7 @@ fusion-cli@^2.6.0:
     winston "^3.2.1"
     yaml-loader "0.6.0"
 
-fusion-core@^2.0.9:
+fusion-core@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/fusion-core/-/fusion-core-2.2.1.tgz#8708735b5fd171d0927b6658b6fbbe562e3d06e2"
   integrity sha512-Rv8xgYLK8HX/f7Nkjqxx26E5kncp4C8f8dvIRAh+swOcLy25CF2gJV6Li4a89+SxCDfYywr+QGRFKLCA4Nup1g==
@@ -4429,10 +4429,10 @@ fusion-plugin-styletron-react@^3.0.12:
     css-to-js-sourcemap-worker "^2.0.4"
     styletron-engine-atomic "^1.4.1"
 
-fusion-plugin-universal-events@^2.0.10:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/fusion-plugin-universal-events/-/fusion-plugin-universal-events-2.1.3.tgz#00719ff6020b20843dcf65aee0d5321a21084212"
-  integrity sha512-rbDJ3R6k1E6DF5WkHcZLFYS6wQSxuA0d6utiSs7eTnyTnuZ3JH+q8J+jCaMCOywtJ3PfonFDUQBdhtrFN3C6sg==
+fusion-plugin-universal-events@^2.1.3:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/fusion-plugin-universal-events/-/fusion-plugin-universal-events-2.1.4.tgz#45199779e808c7e4783912997b81ba69b300bd91"
+  integrity sha512-q+Cl9U+RUsK4bHz9bm4OPGDZ3o09lMxdStuOBsBf2MePzS0dDvPJEnFol7whKZ0XV+X82g9WE4PQI4HhHLkafw==
   dependencies:
     koa-bodyparser "^4.2.1"
 
@@ -6367,10 +6367,10 @@ lodash.unescape@4.0.1:
   resolved "https://registry.yarnpkg.com/lodash.unescape/-/lodash.unescape-4.0.1.tgz#bf2249886ce514cda112fae9218cdc065211fc9c"
   integrity sha1-vyJJiGzlFM2hEvrpIYzcBlIR/Jw=
 
-lodash@^4.11.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+lodash@^4.11.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.4:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 logform@^2.1.1:
   version "2.1.2"
