@@ -4393,10 +4393,10 @@ fusion-cli@^2.6.0:
     winston "^3.2.1"
     yaml-loader "0.6.0"
 
-fusion-core@^2.0.9:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/fusion-core/-/fusion-core-2.2.1.tgz#8708735b5fd171d0927b6658b6fbbe562e3d06e2"
-  integrity sha512-Rv8xgYLK8HX/f7Nkjqxx26E5kncp4C8f8dvIRAh+swOcLy25CF2gJV6Li4a89+SxCDfYywr+QGRFKLCA4Nup1g==
+fusion-core@^2.2.1:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/fusion-core/-/fusion-core-2.3.0.tgz#b4cdfa164e1c01e6a55a86965cc9651d96867db6"
+  integrity sha512-dTYSUHZ3fh1mD9PnKVJvVr9pUrqVN6yithQBraRGFcubcHtkGzgnXzqllR3Ar42Wocdgvyx+2KCBT0IEpuBf5g==
   dependencies:
     koa "^2.7.0"
     koa-compose "^4.1.0"
@@ -4429,10 +4429,10 @@ fusion-plugin-styletron-react@^3.0.12:
     css-to-js-sourcemap-worker "^2.0.4"
     styletron-engine-atomic "^1.4.1"
 
-fusion-plugin-universal-events@^2.0.10:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/fusion-plugin-universal-events/-/fusion-plugin-universal-events-2.1.3.tgz#00719ff6020b20843dcf65aee0d5321a21084212"
-  integrity sha512-rbDJ3R6k1E6DF5WkHcZLFYS6wQSxuA0d6utiSs7eTnyTnuZ3JH+q8J+jCaMCOywtJ3PfonFDUQBdhtrFN3C6sg==
+fusion-plugin-universal-events@^2.1.3:
+  version "2.1.10"
+  resolved "https://registry.yarnpkg.com/fusion-plugin-universal-events/-/fusion-plugin-universal-events-2.1.10.tgz#06c48398dc359bd216fa38585203899edaa1cb02"
+  integrity sha512-2VvjoN72/84xoWXel3tyk00tVfqzysG5+fvCHerCE/Ya5cSw/mUJVPqgTHP7CEdIFZZ7y2PCPGLFoKJlDlnI/g==
   dependencies:
     koa-bodyparser "^4.2.1"
 
@@ -9410,9 +9410,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 ua-parser-js@^0.7.21:
-  version "0.7.21"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
-  integrity sha512-+O8/qh/Qj8CgC6eYBVBykMrNtp5Gebn4dlGD/kKXVkJNDwyrAwSIqwz8CDf+tsAIWVycKcku6gIXJ0qwx/ZXaQ==
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 underscore@~1.4.4:
   version "1.4.4"
